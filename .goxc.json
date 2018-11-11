@@ -15,8 +15,6 @@
     "archive",
     "codesign",
     "copy-resources",
-    "deb",
-    "deb-dev",
     "downloads-page",
     "go-vet",
     "go-test",
