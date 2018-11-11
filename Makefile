@@ -3,13 +3,11 @@ FILE_COMMAND=columbus
 PATH_BUILD=$(HOME)/go-builds/$(FILE_COMMAND)
 FILE_ARCH=darwin_amd64
 
-dep:
-	@dep ensure
-
-clean: dep
+clean: 
 	@rm -rf $(PATH_BUILD)/$(VERSION)
 
 build: clean
+	@dep ensure
 	@$(GOPATH)/bin/goxc \
 	  -bc="darwin,amd64" \
 	  -pv=$(VERSION) \
