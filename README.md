@@ -1,8 +1,14 @@
 # columbus-cli
 
+## About columbus-cli
+
+columbus-cli is a command line interface to interact with the [Columbus] monitoring app.
+
 ## Development
 
-## Setup Go and Dep
+To start development on columbus-cli execute the following steps.
+
+### Setup Go and Dep
 
 ``` shell
 brew install go
@@ -16,7 +22,7 @@ brew install dep
 export GOPATH=$HOME/go
 ```
 
-## Get the columbus-cli github project
+### Get the columbus-cli github project
 
 ``` shell
 go get -v github.com/n3xtdata/columbus-cli
@@ -26,14 +32,14 @@ go get -v github.com/n3xtdata/columbus-cli
 cd $HOME/go/src/github.com/n3xtdata/columbus-cli
 ```
 
-## Build
+### Build
 
 ``` shell
 make build
 ```
 The build files can be found at $HOME/go-builds/columbus-cli.
 
-## Install
+### Install
 
 ``` shell
 make install
@@ -41,8 +47,10 @@ make install
 
 The binary will be installed at "/usr/local/bin".
 
-## Use the columbus cli
+### Use the columbus cli
 
 ``` shell
 columbus help
 ```
+
+[Columbus]: https://www.github.com/n3xtdata/columbus
