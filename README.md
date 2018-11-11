@@ -31,12 +31,15 @@ cd $HOME/go/src/github.com/n3xtdata/columbus-cli
 ``` shell
 make build
 ```
+The build files can be found at $HOME/go-builds/columbus-cli.
 
 ## Install
 
 ``` shell
 make install
 ```
+
+The binary will be installed at "/usr/local/bin".
 
 ## Use the columbus cli
 
