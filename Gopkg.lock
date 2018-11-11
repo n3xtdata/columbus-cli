@@ -119,6 +119,7 @@
   analyzer-version = 1
   input-imports = [
     "github.com/fatih/color",
+    "github.com/inconshreveable/mousetrap",
     "github.com/laher/goxc",
     "github.com/olekukonko/tablewriter",
     "github.com/spf13/cobra",

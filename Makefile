@@ -3,8 +3,11 @@ FILE_COMMAND=columbus
 PATH_BUILD=$(HOME)/go-builds/$(FILE_COMMAND)
 FILE_ARCH=darwin_amd64
 
-clean:
-	@rm -rf ./build
+dep:
+	@dep ensure
+
+clean: dep
+	@rm -rf $(PATH_BUILD)/$(VERSION)
 
 build: clean
 	@$(GOPATH)/bin/goxc \
