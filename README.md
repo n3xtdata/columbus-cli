@@ -47,7 +47,7 @@ make install
 
 The binary will be installed at "/usr/local/bin".
 
-### Use the columbus cli
+## Use the columbus cli
 
 ``` shell
 columbus help
