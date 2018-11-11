@@ -1,6 +1,6 @@
 VERSION=0.0.1
 FILE_COMMAND=columbus
-PATH_BUILD=/Users/robs/go-builds/$(FILE_COMMAND)
+PATH_BUILD=$(HOME)/go-builds/$(FILE_COMMAND)
 FILE_ARCH=darwin_amd64
 
 clean:
